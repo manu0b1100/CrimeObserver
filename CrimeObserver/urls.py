@@ -18,6 +18,7 @@ from django.urls import path
 from django.conf.urls import include,url
 
 urlpatterns = [
+    url(r'^admin/', admin.site.urls),
     url(r'home/', include('Visualisation.urls')),
     url(r'home/', include('DataCollection.urls'))
 ]

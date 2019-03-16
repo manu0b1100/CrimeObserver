@@ -1,3 +1,4 @@
+from CrimeObserver.settings import BASE_DIR
 WEBSITE_ID='http://59.180.234.21:8080/citizen/firSearch.htm'
 DISTRICT_ELEMENT_ID='sdistrict'
 PS_ELEMENT_ID= 'spolicestation'
@@ -28,4 +29,4 @@ PSTIME2= (3408, 1984, 3724, 2100)
 
 SERIOUS_CHARGES=["house-trespass","Theft","Snatching","Stalking","Rash driving","Robbery","Kidnapping","domestic abuse","culpable homicide","sexual harrasement","Rape","murder"]
 
-OFFENCE_DIRECTORY_PATH= "/home/manobhav/PycharmProjects/CrimeObserver/DataCollection/offence_ref.csv"
+OFFENCE_DIRECTORY_PATH= BASE_DIR+"/DataCollection/offence_ref.csv"
